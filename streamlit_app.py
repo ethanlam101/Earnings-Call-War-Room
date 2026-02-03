@@ -19,9 +19,6 @@ from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Any
 
-from dotenv import load_dotenv
-load_dotenv()
-
 import anthropic
 from pypdf import PdfReader
 import pdfplumber
